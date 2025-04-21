@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Custom Cyberpunk Glow Theme */
+body {
+  background-color: #0f0f1a;
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Scrollbar customization (optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #6b21a8;
+  border-radius: 4px;
+}
+
+/* Add smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
